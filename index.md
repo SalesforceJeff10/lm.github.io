@@ -13,7 +13,7 @@
 <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
 <input type=hidden name="oid" value="00D3R0000008hfP">
-<input type=hidden name="retURL" value="http://">
+<input type=hidden name="retURL" value="https://www.lockheedmartin.com/en-us/index.html">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -41,8 +41,6 @@ Business Area:<select  id="00N3R000000uXgd" name="00N3R000000uXgd" title="Busine
 <option value="Space">Space</option>
 <option value="None">None</option>
 </select><br>
-
-<label for="description">Description</label><textarea name="description"></textarea><br>
 
 <input type="submit" name="submit">
 
